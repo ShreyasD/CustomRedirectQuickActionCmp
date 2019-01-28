@@ -1,0 +1,35 @@
+<aura:component description="ContactRedirectDemo"
+                implements="force:lightningQuickAction,force:hasRecordId">
+    
+    <aura:attribute name="showCreateContact" type="Boolean" default="false"/>
+    <aura:attribute name="defaultValues" type="String" />
+    <aura:attribute name="showError" type="Boolean"/>
+    <aura:attribute name="errorMessage" type="String"/>
+
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="record" type="Account"/>
+    <force:recordData aura:id="recordLoader"
+        recordId="{!v.recordId}"
+        targetFields="{!v.record}"
+        fields="['Id',
+                'Name',
+                'Industry',
+                'Type',
+                'Phone',
+                'BillingStreet',
+                'BillingCity',
+                'BillingState',
+                'BillingPostalCode',
+                'BillingCountry']"
+        mode="VIEW"
+        recordUpdated="{!c.doRedirect}"/>
+
+    <aura:if isTrue="{!v.showCreateContact}">
+        <c:CustomRedirect sObjectApiName="Contact"
+                          mode="CREATE"
+                          showError="{!v.showError}"
+                          errorMessage="{!v.errorMessage}"
+                          defaultFieldValuePairs="{!v.defaultValues}"/>
+    </aura:if>
+    
+</aura:component>	

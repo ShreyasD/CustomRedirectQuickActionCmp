@@ -1,0 +1,30 @@
+<aura:component description="Custom Redirect Quick Action for replacing common standard page redirects for javascript button">
+
+    <!--Global ATTRIBUTES-->
+    <aura:attribute name="sObjectApiName" type="String" access="public" required="true"/>
+    <aura:attribute name="mode" type="String" access="public" required="true"/>
+    <aura:attribute name="recordId" type="String" access="public"/>
+    <aura:attribute name="defaultFieldValuePairs" type="String" access="public"/>
+    <aura:attribute name="showError" type="Boolean" access="public"/>
+    <aura:attribute name="errorMessage" type="String" access="public"/>
+
+    <!--Private ATTRIBUTES-->
+    <aura:attribute name="loading" type="Boolean" />
+
+    <!--HANDLERS-->
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+
+    <!--ERROR MSG-->
+    <aura:if isTrue="{!v.showError}">
+        <div class="slds-box slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+            <span class="slds-assistive-text">error</span>
+            <span class="slds-icon_container slds-icon-utility-error slds-m-right_x-small" title="Description of icon when needed">
+                    <lightning:icon iconName="utility:error" size="medium"
+                                    alternativeText="error" class="iconContainer" />&nbsp;
+                </span>
+            <h2>{!v.errorMessage}</h2>
+        </div>
+    </aura:if>
+    <!--</div>-->
+
+</aura:component>
