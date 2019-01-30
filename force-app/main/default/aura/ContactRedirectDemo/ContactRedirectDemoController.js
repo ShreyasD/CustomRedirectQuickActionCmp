@@ -13,10 +13,6 @@
             defaultValues.MailingCountry = account.BillingCountry;
             defaultValues.AccountId = account.Id;
             component.set("v.defaultValues", defaultValues);
-
-            // Close the action panel if not error
-            var dismissActionPanel = $A.get("e.force:closeQuickAction");
-            dismissActionPanel.fire();
         } else {
             component.set("v.showError", true);
             component.set("v.errorMessage", 'Only available on consulting accounts.');
@@ -24,5 +20,17 @@
 
         //Show redirect component
         component.set("v.showCreateContact", true);
+    },
+
+    handleRedirectDone : function(component, event, helper) {
+        var isSuccess = event.getParam("isSuccess");
+        var message = event.getParam("message");
+
+        console.log("handleRedirectDone-> isSuccess:" + isSuccess + " message: " + message);
+        if(isSuccess === true) {
+            // Close the action panel if not error
+            var dismissActionPanel = $A.get("e.force:closeQuickAction");
+            dismissActionPanel.fire();
+        }
     }
 })

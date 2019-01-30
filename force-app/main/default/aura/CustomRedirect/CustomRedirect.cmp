@@ -11,6 +11,9 @@
     <!--Private ATTRIBUTES-->
     <aura:attribute name="loading" type="Boolean" />
 
+    <!--Events-->
+    <aura:registerEvent name="redirectDone" type="c:CustomRedirectDone"/>
+
     <!--HANDLERS-->
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
 

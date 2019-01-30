@@ -48,10 +48,10 @@
         {
             "sourcePath": "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura",
             "isDirectory": true,
-            "size": 128,
-            "modifiedTime": 1548636004307,
-            "changeTime": 1548636004307,
-            "contentHash": "601fec3aa42ed5ec2574282f8527dc4fbae07fcd",
+            "size": 160,
+            "modifiedTime": 1548793454040,
+            "changeTime": 1548793454040,
+            "contentHash": "88641bda438878ed37d13d8528f537c847898551",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -92,14 +92,13 @@
         {
             "sourcePath": "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/CustomRedirect/CustomRedirect.cmp",
             "isDirectory": false,
-            "size": 1444,
-            "modifiedTime": 1548632888320,
-            "changeTime": 1548632888320,
-            "contentHash": "523e564c2c6cae6ff83299de3f898d009f51e995",
+            "size": 1537,
+            "modifiedTime": 1548795420333,
+            "changeTime": 1548795420333,
+            "contentHash": "abafd93a9b06a62535797149b6c1835f7c253847",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -182,10 +181,10 @@
         {
             "sourcePath": "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/CustomRedirect/CustomRedirectHelper.js",
             "isDirectory": false,
-            "size": 1276,
-            "modifiedTime": 1548643445445,
-            "changeTime": 1548643445445,
-            "contentHash": "637098c219cadee3d504e07282335912a2a16e33",
+            "size": 1793,
+            "modifiedTime": 1548798957140,
+            "changeTime": 1548798957140,
+            "contentHash": "73ae5890d6465c87cdc19f5cd71c528c4090f362",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -211,14 +210,13 @@
         {
             "sourcePath": "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton",
             "isDirectory": true,
-            "size": 288,
-            "modifiedTime": 1548454389895,
-            "changeTime": 1548454389895,
-            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "size": 320,
+            "modifiedTime": 1548646534033,
+            "changeTime": 1548646534033,
+            "contentHash": "62533bf04610bd2b3dd430aef44fc35fe8f23ec0",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": true,
-            "isArtifactRoot": false
+            "isWorkspace": true
         }
     ],
     [
@@ -250,14 +248,14 @@
     [
         "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/ContactRedirectDemo/ContactRedirectDemo.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/ContactRedirectDemo/ContactRedirectDemo.cmp",
             "isDirectory": false,
+            "size": 1416,
+            "modifiedTime": 1548798218856,
+            "changeTime": 1548798218856,
+            "contentHash": "2441c2f15e753d30d1355c0742551933c2d21e35",
             "isMetadataFile": false,
-            "size": 1141,
-            "modifiedTime": 1548644344551,
-            "changeTime": 1548644344551,
-            "contentHash": "fc75c79372a7feebcfb325ca3ba95b83cf1457d3"
+            "state": "u"
         }
     ],
     [
@@ -315,14 +313,14 @@
     [
         "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/ContactRedirectDemo/ContactRedirectDemoController.js",
         {
+            "state": "u",
             "sourcePath": "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/ContactRedirectDemo/ContactRedirectDemoController.js",
             "isDirectory": false,
-            "size": 908,
-            "modifiedTime": 1548643771761,
-            "changeTime": 1548643771761,
-            "contentHash": "726597e316ab5ab5ac1c69e82467dcfd40a1c7bb",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1478,
+            "modifiedTime": 1548799184782,
+            "changeTime": 1548799184782,
+            "contentHash": "cba72d70e86ac860bc547ff1790a8e861c1dfedf"
         }
     ],
     [
@@ -348,6 +346,45 @@
             "changeTime": 1548636004310,
             "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
             "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/CustomRedirectDone",
+        {
+            "sourcePath": "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/CustomRedirectDone",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1548793454041,
+            "changeTime": 1548793454041,
+            "contentHash": "abde27d0e7d72bdd20dde0531543bd5482ce259e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/CustomRedirectDone/CustomRedirectDone.evt",
+        {
+            "sourcePath": "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/CustomRedirectDone/CustomRedirectDone.evt",
+            "isDirectory": false,
+            "size": 149,
+            "modifiedTime": 1548794841033,
+            "changeTime": 1548794841033,
+            "contentHash": "1d5751e0ac73c821ac07fa22835829057c3f3025",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/CustomRedirectDone/CustomRedirectDone.evt-meta.xml",
+        {
+            "sourcePath": "/Users/shreyasdhond 1/Documents/Salesforce/sfdcshred/CustomRedirectButton/CustomRedirectButton/force-app/main/default/aura/CustomRedirectDone/CustomRedirectDone.evt-meta.xml",
+            "isDirectory": false,
+            "size": 246,
+            "modifiedTime": 1548793454041,
+            "changeTime": 1548793454041,
+            "contentHash": "48fd98d1883e06a42c0162693881c8a4523a9d95",
+            "isMetadataFile": true,
             "state": "u"
         }
     ]

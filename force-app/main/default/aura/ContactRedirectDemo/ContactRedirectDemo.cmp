@@ -8,6 +8,10 @@
 
     <aura:attribute name="recordId" type="String"/>
     <aura:attribute name="record" type="Account"/>
+
+    <aura:handler name="redirectDone" event="c:CustomRedirectDone"
+    action="{!c.handleRedirectDone}"/>
+
     <force:recordData aura:id="recordLoader"
         recordId="{!v.recordId}"
         targetFields="{!v.record}"
